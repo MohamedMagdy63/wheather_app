@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Cairo:wght@200&family=Fira+Sans:wght@100&display=swap');
+body{
+    font-family: 'Bangers', cursive;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+}
+.wrapper{
+    background: linear-gradient(#ebe2e2,#08f5cdef);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer{
+    background-color: rgb(119, 154, 130);
+    height: 70vhs;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    border: 0;
+    border-radius: 10px;
+}
+input[type='text']{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding-bottom: 4px;
+    color: #fff !important;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+input[type='text']{
+    outline: none;
+}
+button{
+    border: 0;
+    padding: 8px 20px;
+    margin: 0;
+    border-radius: 2px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    font-weight: 100;
+}
+button:active{
+    outline: none;
+}
+.info{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.infoKey{
+    color: rgb(215, 255, 231);
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+}
